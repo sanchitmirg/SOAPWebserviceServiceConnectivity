@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/test/java/localhost/MeditabServer/ErrorType.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/ExtendedStatus.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/InMessage.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/MeditabServer_Service.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/MeditabServer_ServiceLocator.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/OutMessage.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/OutMessageStatus.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/Pharmacy.java=UTF-8
+encoding//src/test/java/localhost/MeditabServer/Prescriber.java=UTF-8

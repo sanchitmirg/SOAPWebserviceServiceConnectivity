@@ -1,0 +1,43 @@
+package com.sanchit;
+
+import java.rmi.RemoteException;
+
+import org.apache.axis.AxisFault;
+
+import localhost.MeditabServer.InMessage;
+import localhost.MeditabServer.MeditabServerProxy;
+import localhost.MeditabServer.MeditabServerSOAPStub;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        try {
+			MeditabServerSOAPStub stub = new MeditabServerSOAPStub();
+			
+			try {
+				InMessage[] message = stub.queryInBoxMessages("5565657", "", "", "", "", "", "", "", "N", "", "", "", "", "", "", "", "");
+				
+				
+				
+				InMessage messageContent = message[4];
+				
+				String messageID = messageContent.getMessageID();
+				
+				System.out.println(messageID);
+				
+			} catch (RemoteException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		} catch (AxisFault e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/axis2/axis2/1.6.2/axis2-1.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/lib/axis.jar"/>
+	<classpathentry kind="lib" path="E:/java/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.apache.commons.discovery_0.2.0.v201004190315/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="E:/java/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="E:/java/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="E:/java/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+	<classpathentry kind="lib" path="E:/java/jaf-1_1_1/jaf-1.1.1/activation.jar"/>
+	<classpathentry kind="lib" path="E:/java/javax.mail.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
